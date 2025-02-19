@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cercle principal -->
+  <circle cx="25" cy="25" r="20" fill="#3BA584" opacity="0.9"/>
+  
+  <!-- Petits cercles décoratifs -->
+  <circle cx="25" cy="25" r="15" fill="none" stroke="white" stroke-width="2"/>
+  <circle cx="25" cy="25" r="10" fill="none" stroke="white" stroke-width="1.5"/>
+  
+  <!-- Ligne courbe représentant un pied stylisé -->
+  <path d="M20 25 Q25 15, 30 25" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Texte du logo -->
+  <text x="60" y="30" font-family="Arial" font-size="24" font-weight="bold" fill="#1A202C">
+    Sophie
+  </text>
+  <text x="60" y="42" font-family="Arial" font-size="12" fill="#3BA584" letter-spacing="2">
+    RÉFLEXOLOGUE
+  </text>
+</svg>

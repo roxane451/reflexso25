@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <circle cx="35" cy="50" r="25" fill="#8CC63F"/>
+    <path d="M25 50 Q 35 35, 45 50" stroke="white" stroke-width="3" fill="none"/>
+  </g>
+  <text x="80" y="35" font-family="Arial" font-size="16">Centre de formation</text>
+  <text x="80" y="60" font-family="Arial" font-size="24" font-weight="bold">Elisabeth Breton</text>
+  <text x="80" y="80" font-family="Arial" font-size="12">Prévention - Gestion du stress</text>
+  <text x="80" y="95" font-family="Arial" font-size="12">Relaxologue - Réflexologue RNCP</text>
+</svg>
