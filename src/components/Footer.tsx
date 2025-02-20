@@ -33,21 +33,21 @@ export default function Footer() {
               </a>
               <div className="flex items-start text-squash-muted">
                 <IconMapPin size={20} className="mr-2 mt-1 flex-shrink-0" />
-                <span>1 rue de la Réflexologie<br />32000 Auch</span>
+                <span>Lieu-dit Cassou<br />32330 GONDRIN</span>
               </div>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold text-squash-text mb-4">
-              Navigation
+            <h3 className="text-lg font-semibold text-squash-text mb-4 " href="#accueil">
+              Accueil
             </h3>
             <ul className="space-y-2">
               {[
-                { name: "Accueil", href: "#hero" },
-                { name: "La réflexologie", href: "#reflexologie" },
-                { name: "Qui suis-je", href: "#about" },
+                // { name: "Accueil", href: "#hero" },
+                { name: "La réflexologie", href: "#lareflexologie" },
+                { name: "Qui suis-je", href: "#quisuisje" },
                 { name: "Services", href: "#services" },
                 { name: "Témoignages", href: "#testimonials" },
                 { name: "Contact", href: "#contact" },

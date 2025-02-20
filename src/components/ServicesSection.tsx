@@ -125,9 +125,9 @@ export default function ServicesSection() {
                     <IconCurrencyEuro size={20} className="mr-1" />
                     <span className="text-2xl font-bold">{service.price}</span>
                   </div>
-                  <button className="px-4 py-2 bg-squash-mint text-white rounded-md hover:bg-squash-mint/90 transition-colors">
+                  {/* <button className="px-4 py-2 bg-squash-mint text-white rounded-md hover:bg-squash-mint/90 transition-colors">
                     Réserver
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </motion.div>

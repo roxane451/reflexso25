@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -41,16 +39,16 @@ export default function BenefitsSection() {
           viewport={{ once: true }}
           className="text-center mb-16 relative"
         >
-          <div className="flex items-center justify-center gap-2 text-blue-300/70 group-hover:text-blue-300 transition-colors duration-300 mb-2">
-            <span>Cliquez pour en savoir plus</span>
+          {/* <div className="flex items-center justify-center gap-2 text-blue-300/70 group-hover:text-blue-300 transition-colors duration-300 mb-2">
+            {/* <span>Cliquez pour en savoir plus</span>
             <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
-          </div>
+          </div> */}
           <h2 className="text-3xl md:text-4xl font-bold text-squash-text mb-4">
             Pourquoi la Réflexologie ?
           </h2>
-          <p className="text-xl text-squash-mint">Découvrez les bienfaits</p>
+          <p className="text-xl text-squash-mint font-bold mb-2">Découvrez les bienfaits</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">

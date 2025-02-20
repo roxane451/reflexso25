@@ -12,14 +12,14 @@ type MenuItem = {
 
 const menuItems: MenuItem[] = [
   { name: "Accueil", href: "#hero" },
-  { name: "La réflexologie", href: "#reflexologie" },
-  { name: "Qui suis-je", href: "#about" },
+  { name: "La réflexologie", href: "#lareflexologie" },
+  { name: "Qui suis-je", href: "#quisuisje" },
   { name: "Services", href: "#services" },
   { name: "Témoignages", href: "#testimonials" },
   { name: "Contact", href: "#contact" },
 ];
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Navbar() {
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -32,7 +32,7 @@ export default function Navbar() {
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
     setIsOpen(false); // Close mobile menu after clicking
@@ -55,7 +55,7 @@ export default function Navbar() {
                 src="/logo.svg"
                 alt="Sophie Réflexologue"
                 fill
-                style={{ objectFit: 'contain' }}
+                style={{ objectFit: "contain" }}
                 priority
               />
             </Link>
@@ -74,14 +74,13 @@ export default function Navbar() {
                   <Link
                     href={item.href}
                     onClick={(e) => scrollToSection(e, item.href)}
-                    className="text-squash-muted hover:text-squash-mint px-3 py-2 text-sm font-medium transition-colors relative group cursor-pointer"
+                    className="text-squash-muted hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors relative group cursor-pointer"
                   >
                     {item.name}
-                    <span className="absolute inset-x-0 bottom-0 h-0.5 bg-squash-mint transform origin-left scale-x-0 transition-transform group-hover:scale-x-100" />
+                    <span className="absolute inset-x-0 bottom-0 h-0.5 bg-indigo-600 transform origin-left scale-x-0 transition-transform group-hover:scale-x-100" />
                   </Link>
                 </motion.div>
               ))}
-
             </div>
           </div>
 
@@ -89,14 +88,10 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-squash-muted hover:text-squash-mint p-2 transition-colors"
+              className="text-squash-muted hover:text-indigo-600 p-2 transition-colors"
               aria-label="Menu principal"
             >
-              {isOpen ? (
-                <IconX className="h-6 w-6" />
-              ) : (
-                <IconMenu2 className="h-6 w-6" />
-              )}
+              {isOpen ? <IconX className="h-6 w-6" /> : <IconMenu2 className="h-6 w-6" />}
             </button>
           </div>
         </div>
@@ -122,7 +117,7 @@ export default function Navbar() {
                 <Link
                   href={item.href}
                   onClick={(e) => scrollToSection(e, item.href)}
-                  className="text-squash-muted hover:text-squash-mint block px-3 py-2 text-base font-medium transition-colors cursor-pointer"
+                  className="text-squash-muted hover:text-indigo-600 block px-3 py-2 text-base font-medium transition-colors cursor-pointer"
                 >
                   {item.name}
                 </Link>

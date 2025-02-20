@@ -14,7 +14,7 @@ export default function InsuranceSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-squash-text mb-4">
             Remboursement de la Réflexologie
           </h2>
-          <h3 className="text-xl text-squash-mint mb-6">
+          <h3 className="text-xl text-squash-mint font-bold">
             par votre mutuelle
           </h3>
         </motion.div>

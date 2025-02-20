@@ -32,7 +32,7 @@ export default function CertificationsSection() {
             <div className="relative w-full h-24 mb-4">
             <Link href="https://www.reflexobreton.fr/" target="_blank" rel="noopener noreferrer" passHref>
               <Image
-                src="/elisabeth-breton-logo.svg"
+                src="/logo-centre-de-formation-elisabeth-breton.jpg"
                 alt="Centre de formation Elisabeth Breton"
                 fill
                 style={{ objectFit: 'contain' }}
@@ -55,7 +55,7 @@ export default function CertificationsSection() {
             <div className="relative w-full h-24 mb-4">
             <Link href="https://syndicat-reflexologues.com/" target="_blank" rel="noopener noreferrer"passHref>
               <Image
-                src="/spr-logo.svg"
+                src="/logo-syndicat-reflexologue.jpg"
                 alt="Syndicat Professionnel des Réflexologues"
                 fill
                 style={{ objectFit: 'contain' }}
@@ -77,7 +77,7 @@ export default function CertificationsSection() {
             <div className="relative w-full h-24 mb-4">
             <Link href="https://mutuellesante.fr/medecine-douce/reflexologie-plantaire" target="_blank" rel="noopener noreferrer"passHref>
     <Image
-                src="/mutuelle-sante-logo.svg"
+                src="/logo-mutuelle-sante.jpg"
                 alt="Mutuelle Santé"
                 fill
                 style={{ objectFit: 'contain' }}
