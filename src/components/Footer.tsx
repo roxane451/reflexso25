@@ -40,9 +40,8 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold text-squash-text mb-4 " href="#accueil">
-              Accueil
-            </h3>
+          <a href="#accueil" className="text-lg font-semibold text-squash-text mb-4">Accueil</a>
+
             <ul className="space-y-2">
               {[
                 // { name: "Accueil", href: "#hero" },
