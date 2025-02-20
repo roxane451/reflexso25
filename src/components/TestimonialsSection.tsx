@@ -62,7 +62,7 @@ export default function TestimonialsSection() {
                 size={40}
               />
               <p className="text-squash-muted mb-6 italic">
-                "{testimonial.content}"
+                {testimonial.content}
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-squash-mint/20 rounded-full flex items-center justify-center">

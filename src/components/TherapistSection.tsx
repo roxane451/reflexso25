@@ -64,7 +64,7 @@ export default function TherapistSection() {
             </p>
 
             <p className="italic text-squash-muted">
-              "Impatiente de vous recevoir et de vous faire découvrir les bienfaits de la réflexologie, je vous invite à partager une heure de profonde détente."
+            Impatiente de vous recevoir et de vous faire découvrir les bienfaits de la réflexologie, je vous invite à partager une heure de profonde détente.
             </p>
 
             <p className="text-right font-bold text-squash-mint">
