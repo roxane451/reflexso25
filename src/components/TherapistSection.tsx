@@ -52,15 +52,15 @@ export default function TherapistSection() {
             </h3>
 
             <p className="text-squash-muted leading-relaxed">
-              Passionnée par le Bien-être depuis des années, j’ai décidé de me spécialiser dans ce domaine et d’en faire mon métier.
+              Passionnée par le Bien-être depuis des années, j\’ai décidé de me spécialiser dans ce domaine et d\’en faire mon métier.
             </p>
 
             <p className="text-squash-muted leading-relaxed">
-              En 2012, je découvre la Réflexologie plantaire thaïlandaise et le modelage Californien. En pratiquant régulièrement, j’ai rapidement constaté des effets durables sur le corps et l’état émotionnel de mes patients.
+              En 2012, je découvre la Réflexologie plantaire thaïlandaise et le modelage Californien. En pratiquant régulièrement, j\’ai rapidement constaté des effets durables sur le corps et l\’état émotionnel de mes patients.
             </p>
 
             <p className="text-squash-muted leading-relaxed">
-              Pour approfondir mes connaissances, j’ai intégré l’école Elisabeth Le Breton à Versailles et obtenu mon diplôme en 2018. Aujourd’hui, j’exerce en cabinet médical aux côtés de Kinésithérapeutes et Ostéopathes.
+              Pour approfondir mes connaissances, j\’ai intégré l\’école Elisabeth Le Breton à Versailles et obtenu mon diplôme en 2018. Aujourd’hui, j\’exerce en cabinet médical aux côtés de Kinésithérapeutes et Ostéopathes.
             </p>
 
             <p className="italic text-squash-muted">
