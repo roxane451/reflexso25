@@ -5,17 +5,17 @@ import Link from "next/link";
 const benefits = [
   {
     title: "Gestion du stress",
-    description: "La Réflexologie baisse l'Axe du Stress en relançant la production d'hormones du Bien-être. Sa pratique régulière permet un meilleur recul face aux symptômes de l'Anxiété, de la Dépression et de la Tension Nerveuse.",
+    description: "La Réflexologie baisse l\'Axe du Stress en relançant la production d'hormones du Bien-être. Sa pratique régulière permet un meilleur recul face aux symptômes de l\'Anxiété, de la Dépression et de la Tension Nerveuse.",
     icon: "🧘‍♀️",
   },
   {
     title: "Régulation Système Digestif",
-    description: "Par le massage de la voûte plantaire, la Réflexologie agit sur les zones du Système Digestif (côlon, intestins, estomac, foie..) Elle stimule l'absorption des aliments, apaise le Syndrome du côlon irritable et la constipation.",
+    description: "Par le massage de la voûte plantaire, la Réflexologie agit sur les zones du Système Digestif (côlon, intestins, estomac, foie..) Elle stimule l\'absorption des aliments, apaise le Syndrome du côlon irritable et la constipation.",
     icon: "💆‍♀️",
   },
   {
     title: "Détente Musculo-Squelettique",
-    description: "La Réflexologie joue le rôle de pompe et permet une meilleure circulation des liquides. Elle diminue la sensation de jambes lourdes, la douleur des contractions musculaires et protège les articulations de l'Arthrose.",
+    description: "La Réflexologie joue le rôle de pompe et permet une meilleure circulation des liquides. Elle diminue la sensation de jambes lourdes, la douleur des contractions musculaires et protège les articulations de l\'Arthrose.",
     icon: "🦶",
   },
   {
